@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.cookie{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #e7e7e7;
+}
+
+.cookie:hover {
+  background-color:  #e7e7e7; 
+}
+
+.success{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.success:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.danger{
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.danger:hover {
+  background-color: red; 
+  color: white;
+}
+
+.page{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.page:hover {
+  background-color: #008CBA;
+  color: white;
+}
